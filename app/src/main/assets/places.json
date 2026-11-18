@@ -1,0 +1,415 @@
+[
+  {
+    "id": "petra",
+    "nameAr": "البتراء",
+    "nameEn": "Petra",
+    "descriptionAr": "المدينة الوردية المنحوتة في الصخر، عاصمة الأنباط وإحدى عجائب الدنيا السبع الجديدة. يبدأ الطريق عبر السيق الضيق وصولاً إلى الخزنة، ثم الدير والمدرج والمقابر الملكية.",
+    "descriptionEn": "The rose-red city carved into sandstone cliffs, capital of the Nabataeans and one of the New Seven Wonders of the World. Walk through the narrow Siq to the Treasury, then on to the Monastery, the theatre and the Royal Tombs.",
+    "category": "Historical",
+    "governorate": "Maan",
+    "latitude": 30.3285,
+    "longitude": 35.4444,
+    "openingHours": "06:00 - 18:00",
+    "ticketPrice": {
+      "local": 1,
+      "foreign": 50
+    },
+    "rating": 4.9,
+    "imageUrls": [
+      "https://picsum.photos/seed/petra1/800/500",
+      "https://picsum.photos/seed/petra2/800/500",
+      "https://picsum.photos/seed/petra3/800/500"
+    ]
+  },
+  {
+    "id": "wadi-rum",
+    "nameAr": "وادي رم",
+    "nameEn": "Wadi Rum",
+    "descriptionAr": "صحراء القمر بجبالها الحمراء ورمالها الذهبية. يمكنك القيام بجولة بسيارات الدفع الرباعي أو ركوب الجمال والمبيت في مخيم بدوي تحت النجوم.",
+    "descriptionEn": "The Valley of the Moon: red sandstone mountains and golden dunes. Take a 4x4 jeep tour or a camel ride and spend the night in a Bedouin camp under the stars.",
+    "category": "Nature",
+    "governorate": "Aqaba",
+    "latitude": 29.5759,
+    "longitude": 35.4196,
+    "openingHours": "Visitor centre 07:00 - 19:00",
+    "ticketPrice": {
+      "local": 1,
+      "foreign": 5
+    },
+    "rating": 4.8,
+    "imageUrls": [
+      "https://picsum.photos/seed/wadi-rum1/800/500",
+      "https://picsum.photos/seed/wadi-rum2/800/500",
+      "https://picsum.photos/seed/wadi-rum3/800/500"
+    ]
+  },
+  {
+    "id": "jerash",
+    "nameAr": "جرش",
+    "nameEn": "Jerash",
+    "descriptionAr": "واحدة من أفضل المدن الرومانية المحفوظة في العالم، تضم قوس هادريان والساحة البيضاوية وشارع الأعمدة ومعبد أرتميس.",
+    "descriptionEn": "One of the best-preserved Roman cities in the world, with Hadrian's Arch, the Oval Plaza, the colonnaded street and the Temple of Artemis.",
+    "category": "Historical",
+    "governorate": "Jerash",
+    "latitude": 32.2808,
+    "longitude": 35.8993,
+    "openingHours": "08:00 - 18:00",
+    "ticketPrice": {
+      "local": 1,
+      "foreign": 10
+    },
+    "rating": 4.7,
+    "imageUrls": [
+      "https://picsum.photos/seed/jerash1/800/500",
+      "https://picsum.photos/seed/jerash2/800/500",
+      "https://picsum.photos/seed/jerash3/800/500"
+    ]
+  },
+  {
+    "id": "dead-sea",
+    "nameAr": "البحر الميت",
+    "nameEn": "Dead Sea",
+    "descriptionAr": "أخفض نقطة على سطح الأرض، على عمق يزيد عن ٤٠٠ متر تحت مستوى سطح البحر. تطفو على مياهه شديدة الملوحة وتستمتع بطين البحر الميت العلاجي.",
+    "descriptionEn": "The lowest point on Earth, more than 400 m below sea level. Float effortlessly in the super-salty water and try the famous mineral-rich mud.",
+    "category": "Nature",
+    "governorate": "Balqa",
+    "latitude": 31.72,
+    "longitude": 35.588,
+    "openingHours": "08:00 - 19:00",
+    "ticketPrice": {
+      "local": 15,
+      "foreign": 20
+    },
+    "rating": 4.6,
+    "imageUrls": [
+      "https://picsum.photos/seed/dead-sea1/800/500",
+      "https://picsum.photos/seed/dead-sea2/800/500",
+      "https://picsum.photos/seed/dead-sea3/800/500"
+    ]
+  },
+  {
+    "id": "aqaba",
+    "nameAr": "العقبة",
+    "nameEn": "Aqaba",
+    "descriptionAr": "مدينة الأردن الساحلية الوحيدة على البحر الأحمر، تشتهر بالغوص والشعاب المرجانية والشواطئ والأسواق والمأكولات البحرية.",
+    "descriptionEn": "Jordan's only coastal city on the Red Sea, famous for diving and snorkelling over coral reefs, sandy beaches, markets and fresh seafood.",
+    "category": "Entertainment",
+    "governorate": "Aqaba",
+    "latitude": 29.532,
+    "longitude": 35.0063,
+    "openingHours": "24/7",
+    "ticketPrice": {
+      "local": 0
+    },
+    "rating": 4.5,
+    "imageUrls": [
+      "https://picsum.photos/seed/aqaba1/800/500",
+      "https://picsum.photos/seed/aqaba2/800/500",
+      "https://picsum.photos/seed/aqaba3/800/500"
+    ]
+  },
+  {
+    "id": "ajloun-castle",
+    "nameAr": "قلعة عجلون",
+    "nameEn": "Ajloun Castle",
+    "descriptionAr": "قلعة إسلامية بناها عز الدين أسامة أحد قادة صلاح الدين عام ١١٨٤م، تطل على وادي الأردن وتحيط بها غابات عجلون.",
+    "descriptionEn": "A 12th-century Ayyubid fortress built in 1184 by one of Saladin's generals. It overlooks the Jordan Valley and is surrounded by the Ajloun forests.",
+    "category": "Historical",
+    "governorate": "Ajloun",
+    "latitude": 32.326,
+    "longitude": 35.7272,
+    "openingHours": "08:00 - 18:00",
+    "ticketPrice": {
+      "local": 1,
+      "foreign": 3
+    },
+    "rating": 4.5,
+    "imageUrls": [
+      "https://picsum.photos/seed/ajloun-castle1/800/500",
+      "https://picsum.photos/seed/ajloun-castle2/800/500",
+      "https://picsum.photos/seed/ajloun-castle3/800/500"
+    ]
+  },
+  {
+    "id": "amman-citadel",
+    "nameAr": "جبل القلعة",
+    "nameEn": "Amman Citadel",
+    "descriptionAr": "أعلى جبل في وسط عمّان، يضم معبد هرقل والقصر الأموي والكنيسة البيزنطية، ويوفر إطلالة رائعة على المدينة القديمة.",
+    "descriptionEn": "The highest hill in downtown Amman, home to the Temple of Hercules, the Umayyad Palace and a Byzantine church, with sweeping views over the old city.",
+    "category": "Historical",
+    "governorate": "Amman",
+    "latitude": 31.9546,
+    "longitude": 35.9349,
+    "openingHours": "08:00 - 19:00",
+    "ticketPrice": {
+      "local": 0.5,
+      "foreign": 3
+    },
+    "rating": 4.6,
+    "imageUrls": [
+      "https://picsum.photos/seed/amman-citadel1/800/500",
+      "https://picsum.photos/seed/amman-citadel2/800/500",
+      "https://picsum.photos/seed/amman-citadel3/800/500"
+    ]
+  },
+  {
+    "id": "roman-theatre",
+    "nameAr": "المدرج الروماني",
+    "nameEn": "Roman Theatre",
+    "descriptionAr": "مدرج روماني يعود للقرن الثاني الميلادي ويتسع لنحو ستة آلاف متفرج، ويضم متحف التراث الشعبي ومتحف الأزياء.",
+    "descriptionEn": "A 2nd-century Roman theatre that seats about 6,000 people, also home to the Folklore Museum and the Museum of Popular Traditions.",
+    "category": "Historical",
+    "governorate": "Amman",
+    "latitude": 31.9517,
+    "longitude": 35.9393,
+    "openingHours": "08:00 - 19:00",
+    "ticketPrice": {
+      "local": 0.5,
+      "foreign": 2
+    },
+    "rating": 4.5,
+    "imageUrls": [
+      "https://picsum.photos/seed/roman-theatre1/800/500",
+      "https://picsum.photos/seed/roman-theatre2/800/500",
+      "https://picsum.photos/seed/roman-theatre3/800/500"
+    ]
+  },
+  {
+    "id": "baptism-site",
+    "nameAr": "المغطس",
+    "nameEn": "Baptism Site",
+    "descriptionAr": "موقع عماد السيد المسيح على الضفة الشرقية لنهر الأردن، وهو مدرج على قائمة التراث العالمي لليونسكو ويضم كنائس أثرية.",
+    "descriptionEn": "Bethany Beyond the Jordan, where Jesus was baptised by John the Baptist. A UNESCO World Heritage Site with ancient churches on the east bank of the Jordan River.",
+    "category": "Religious",
+    "governorate": "Balqa",
+    "latitude": 31.8371,
+    "longitude": 35.5503,
+    "openingHours": "08:00 - 18:00",
+    "ticketPrice": {
+      "local": 2,
+      "foreign": 12
+    },
+    "rating": 4.7,
+    "imageUrls": [
+      "https://picsum.photos/seed/baptism-site1/800/500",
+      "https://picsum.photos/seed/baptism-site2/800/500",
+      "https://picsum.photos/seed/baptism-site3/800/500"
+    ]
+  },
+  {
+    "id": "mount-nebo",
+    "nameAr": "جبل نيبو",
+    "nameEn": "Mount Nebo",
+    "descriptionAr": "الجبل الذي يُعتقد أن النبي موسى عليه السلام رأى منه الأرض المقدسة. يضم كنيسة بيزنطية بفسيفساء رائعة وإطلالة على البحر الميت.",
+    "descriptionEn": "The mountain where Moses is believed to have seen the Promised Land. Home to a Byzantine church with beautiful mosaics and views over the Dead Sea.",
+    "category": "Religious",
+    "governorate": "Madaba",
+    "latitude": 31.7681,
+    "longitude": 35.7256,
+    "openingHours": "08:00 - 18:00",
+    "ticketPrice": {
+      "local": 1,
+      "foreign": 3
+    },
+    "rating": 4.6,
+    "imageUrls": [
+      "https://picsum.photos/seed/mount-nebo1/800/500",
+      "https://picsum.photos/seed/mount-nebo2/800/500",
+      "https://picsum.photos/seed/mount-nebo3/800/500"
+    ]
+  },
+  {
+    "id": "madaba",
+    "nameAr": "مادبا وخارطة الفسيفساء",
+    "nameEn": "Madaba & Mosaic Map",
+    "descriptionAr": "مدينة الفسيفساء، تضم كنيسة القديس جاورجيوس وخارطة مادبا التي تعد أقدم خريطة فسيفسائية للأراضي المقدسة.",
+    "descriptionEn": "The City of Mosaics, home to St. George's Church and the Madaba Map, the oldest surviving mosaic map of the Holy Land.",
+    "category": "Religious",
+    "governorate": "Madaba",
+    "latitude": 31.718,
+    "longitude": 35.7937,
+    "openingHours": "08:00 - 18:00",
+    "ticketPrice": {
+      "local": 1,
+      "foreign": 2
+    },
+    "rating": 4.4,
+    "imageUrls": [
+      "https://picsum.photos/seed/madaba1/800/500",
+      "https://picsum.photos/seed/madaba2/800/500",
+      "https://picsum.photos/seed/madaba3/800/500"
+    ]
+  },
+  {
+    "id": "umm-qais",
+    "nameAr": "أم قيس",
+    "nameEn": "Umm Qais",
+    "descriptionAr": "مدينة جدارا الرومانية القديمة في شمال الأردن، تطل على بحيرة طبريا وهضبة الجولان، وتشتهر بمدرجها من الحجر البازلتي الأسود.",
+    "descriptionEn": "The ancient Greco-Roman city of Gadara in northern Jordan, overlooking the Sea of Galilee and the Golan Heights, known for its black basalt theatre.",
+    "category": "Historical",
+    "governorate": "Irbid",
+    "latitude": 32.6556,
+    "longitude": 35.6866,
+    "openingHours": "08:00 - 18:00",
+    "ticketPrice": {
+      "local": 0.5,
+      "foreign": 5
+    },
+    "rating": 4.5,
+    "imageUrls": [
+      "https://picsum.photos/seed/umm-qais1/800/500",
+      "https://picsum.photos/seed/umm-qais2/800/500",
+      "https://picsum.photos/seed/umm-qais3/800/500"
+    ]
+  },
+  {
+    "id": "dana",
+    "nameAr": "محمية ضانا للمحيط الحيوي",
+    "nameEn": "Dana Biosphere Reserve",
+    "descriptionAr": "أكبر محمية طبيعية في الأردن، تمتد من المرتفعات حتى وادي عربة، وتضم قرية ضانا التراثية ومسارات مشي رائعة.",
+    "descriptionEn": "Jordan's largest nature reserve, stretching from the highlands down to Wadi Araba, with the historic Dana village and spectacular hiking trails.",
+    "category": "Nature",
+    "governorate": "Tafilah",
+    "latitude": 30.6748,
+    "longitude": 35.6107,
+    "openingHours": "08:00 - 17:00",
+    "ticketPrice": {
+      "local": 2,
+      "foreign": 8
+    },
+    "rating": 4.7,
+    "imageUrls": [
+      "https://picsum.photos/seed/dana1/800/500",
+      "https://picsum.photos/seed/dana2/800/500",
+      "https://picsum.photos/seed/dana3/800/500"
+    ]
+  },
+  {
+    "id": "wadi-mujib",
+    "nameAr": "وادي الموجب",
+    "nameEn": "Wadi Mujib",
+    "descriptionAr": "أخفض محمية طبيعية في العالم، تشتهر بمسار السيق المائي حيث تمشي في الماء بين جدران صخرية شاهقة حتى الشلال.",
+    "descriptionEn": "The lowest nature reserve in the world, famous for the Siq water trail where you wade between towering canyon walls up to a waterfall.",
+    "category": "Nature",
+    "governorate": "Karak",
+    "latitude": 31.4669,
+    "longitude": 35.5712,
+    "openingHours": "08:00 - 16:00 (Apr - Oct)",
+    "ticketPrice": {
+      "local": 15,
+      "foreign": 21
+    },
+    "rating": 4.8,
+    "imageUrls": [
+      "https://picsum.photos/seed/wadi-mujib1/800/500",
+      "https://picsum.photos/seed/wadi-mujib2/800/500",
+      "https://picsum.photos/seed/wadi-mujib3/800/500"
+    ]
+  },
+  {
+    "id": "karak-castle",
+    "nameAr": "قلعة الكرك",
+    "nameEn": "Karak Castle",
+    "descriptionAr": "من أكبر القلاع الصليبية في المنطقة، بنيت في القرن الثاني عشر وتضم ممرات وقاعات حجرية ومتحفاً أثرياً.",
+    "descriptionEn": "One of the largest Crusader castles in the region, built in the 12th century, with stone halls, tunnels and an archaeological museum.",
+    "category": "Historical",
+    "governorate": "Karak",
+    "latitude": 31.1806,
+    "longitude": 35.7019,
+    "openingHours": "08:00 - 18:00",
+    "ticketPrice": {
+      "local": 0.5,
+      "foreign": 3
+    },
+    "rating": 4.5,
+    "imageUrls": [
+      "https://picsum.photos/seed/karak-castle1/800/500",
+      "https://picsum.photos/seed/karak-castle2/800/500",
+      "https://picsum.photos/seed/karak-castle3/800/500"
+    ]
+  },
+  {
+    "id": "rainbow-street",
+    "nameAr": "شارع الرينبو",
+    "nameEn": "Rainbow Street",
+    "descriptionAr": "شارع حيوي في جبل عمّان مليء بالمقاهي والمطاعم والمحلات الحرفية، ويستضيف سوق جارا الشعبي في الصيف.",
+    "descriptionEn": "A lively street in Jabal Amman full of cafés, restaurants and craft shops, hosting the Souk Jara street market in summer.",
+    "category": "Entertainment",
+    "governorate": "Amman",
+    "latitude": 31.9516,
+    "longitude": 35.923,
+    "openingHours": "24/7",
+    "ticketPrice": {
+      "local": 0
+    },
+    "rating": 4.4,
+    "imageUrls": [
+      "https://picsum.photos/seed/rainbow-street1/800/500",
+      "https://picsum.photos/seed/rainbow-street2/800/500",
+      "https://picsum.photos/seed/rainbow-street3/800/500"
+    ]
+  },
+  {
+    "id": "hashem-restaurant",
+    "nameAr": "مطعم هاشم",
+    "nameEn": "Hashem Restaurant",
+    "descriptionAr": "أشهر مطعم شعبي في وسط البلد بعمّان منذ عام ١٩٥٢، يقدم الفول والحمص والفلافل والشاي بالنعناع.",
+    "descriptionEn": "Downtown Amman's most famous street-food restaurant since 1952, serving fuul, hummus, falafel and mint tea.",
+    "category": "Restaurants",
+    "governorate": "Amman",
+    "latitude": 31.9537,
+    "longitude": 35.933,
+    "openingHours": "24/7",
+    "ticketPrice": {
+      "local": 0
+    },
+    "rating": 4.6,
+    "imageUrls": [
+      "https://picsum.photos/seed/hashem-restaurant1/800/500",
+      "https://picsum.photos/seed/hashem-restaurant2/800/500",
+      "https://picsum.photos/seed/hashem-restaurant3/800/500"
+    ]
+  },
+  {
+    "id": "sufra-restaurant",
+    "nameAr": "مطعم سفرة",
+    "nameEn": "Sufra Restaurant",
+    "descriptionAr": "مطعم أردني تقليدي في بيت قديم على شارع الرينبو، يشتهر بالمنسف والمقلوبة والأطباق الأردنية الأصيلة.",
+    "descriptionEn": "A traditional Jordanian restaurant in an old house on Rainbow Street, known for mansaf, maqluba and other authentic dishes.",
+    "category": "Restaurants",
+    "governorate": "Amman",
+    "latitude": 31.9505,
+    "longitude": 35.9244,
+    "openingHours": "13:00 - 23:00",
+    "ticketPrice": {
+      "local": 0
+    },
+    "rating": 4.5,
+    "imageUrls": [
+      "https://picsum.photos/seed/sufra-restaurant1/800/500",
+      "https://picsum.photos/seed/sufra-restaurant2/800/500",
+      "https://picsum.photos/seed/sufra-restaurant3/800/500"
+    ]
+  },
+  {
+    "id": "haret-jdoudna",
+    "nameAr": "حارة جدودنا",
+    "nameEn": "Haret Jdoudna",
+    "descriptionAr": "مطعم في بيت تراثي بمدينة مادبا بساحة جميلة، يقدم المشاوي والمقبلات الأردنية والشرقية.",
+    "descriptionEn": "A restaurant in a restored heritage house in Madaba with a lovely courtyard, serving grills and Jordanian mezze.",
+    "category": "Restaurants",
+    "governorate": "Madaba",
+    "latitude": 31.719,
+    "longitude": 35.795,
+    "openingHours": "10:00 - 23:00",
+    "ticketPrice": {
+      "local": 0
+    },
+    "rating": 4.4,
+    "imageUrls": [
+      "https://picsum.photos/seed/haret-jdoudna1/800/500",
+      "https://picsum.photos/seed/haret-jdoudna2/800/500",
+      "https://picsum.photos/seed/haret-jdoudna3/800/500"
+    ]
+  }
+]

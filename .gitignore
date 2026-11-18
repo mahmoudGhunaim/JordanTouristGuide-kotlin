@@ -1,0 +1,21 @@
+# Gradle / build output
+.gradle/
+.kotlin/
+build/
+captures/
+*.apk
+*.aab
+
+# Local machine config (SDK path, Maps API key)
+local.properties
+
+# Firebase config contains project API keys - each teammate downloads their own copy
+app/google-services.json
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Claude Code local settings
+.claude/settings.local.json

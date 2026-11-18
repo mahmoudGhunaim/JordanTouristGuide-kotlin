@@ -1,0 +1,30 @@
+rules_version = '2';
+
+// Security rules for the Jordan Tourist Guide Firestore database.
+// Paste these into Firebase Console -> Firestore Database -> Rules.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Everyone (including guests) can read places.
+    // Writes are only allowed while seeding: set `allow write: if true;`
+    // for the first launch, then change it back to `false`.
+    match /places/{placeId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // Everyone can read reviews; only logged-in users can add their own.
+    match /reviews/{reviewId} {
+      allow read: if true;
+      allow create: if request.auth != null
+                    && request.resource.data.userId == request.auth.uid
+                    && request.resource.data.rating is int
+                    && request.resource.data.rating >= 1
+                    && request.resource.data.rating <= 5
+                    && request.resource.data.comment is string
+                    && request.resource.data.comment.size() <= 500;
+      allow update, delete: if request.auth != null
+                            && resource.data.userId == request.auth.uid;
+    }
+  }
+}

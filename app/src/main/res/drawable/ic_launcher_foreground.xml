@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Stylised Al-Khazneh (Petra Treasury) facade with a desert sun.
+     All shapes stay inside the 66dp adaptive-icon safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.72"
+        android:scaleY="0.72"
+        android:translateY="2">
+        <!-- sun -->
+        <path android:fillColor="#FFF2C879" android:pathData="M54,22m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0" />
+        <!-- upper tholos (round pavilion) -->
+        <path android:fillColor="#FFFBF6EE" android:pathData="M47,38h14v12h-14z" />
+        <path android:fillColor="#FFFBF6EE" android:pathData="M45,36h18l-9,-5z" />
+        <!-- pediment -->
+        <path android:fillColor="#FFFBF6EE" android:pathData="M32,58l22,-8l22,8z" />
+        <!-- facade body -->
+        <path android:fillColor="#FFFBF6EE" android:pathData="M34,58h40v22h-40z" />
+        <!-- doorway -->
+        <path android:fillColor="#FFB5523B" android:pathData="M50,64h8v16h-8z" />
+        <!-- gaps between columns -->
+        <path android:fillColor="#FFB5523B" android:pathData="M39,62h2v18h-2z M45,62h2v18h-2z M61,62h2v18h-2z M67,62h2v18h-2z" />
+        <!-- ground -->
+        <path android:fillColor="#FFF2C879" android:pathData="M28,80h52v3h-52z" />
+    </group>
+</vector>

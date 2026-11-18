@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jordan Tourist Guide</string>
+    <string name="app_tagline">Discover the Hashemite Kingdom</string>
+
+    <!-- Common -->
+    <string name="loading">Loading…</string>
+    <string name="retry">Try again</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Back</string>
+    <string name="error_generic_title">Something went wrong</string>
+    <string name="error_generic_message">We couldn\'t load the data. Check your connection and try again.</string>
+    <string name="see_all">See all</string>
+    <string name="free">Free</string>
+    <string name="price_jod">%1$s JOD</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Explore Jordan</string>
+    <string name="onboarding_text_1">From the rose-red city of Petra to the Roman streets of Jerash, discover the kingdom\'s greatest treasures.</string>
+    <string name="onboarding_title_2">Find your way</string>
+    <string name="onboarding_text_2">See every place on the map, check opening hours and ticket prices, and get directions in one tap.</string>
+    <string name="onboarding_title_3">Save and share</string>
+    <string name="onboarding_text_3">Keep your favorite places offline and share your experience with other travellers.</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_start">Get started</string>
+
+    <!-- Auth -->
+    <string name="auth_welcome">Welcome</string>
+    <string name="auth_login_subtitle">Sign in to write reviews and sync your account.</string>
+    <string name="auth_register_subtitle">Create an account to share your travel experience.</string>
+    <string name="auth_login">Log in</string>
+    <string name="auth_register">Create account</string>
+    <string name="auth_name">Full name</string>
+    <string name="auth_email">Email</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_show_password">Show password</string>
+    <string name="auth_hide_password">Hide password</string>
+    <string name="auth_switch_to_register">New here? Create an account</string>
+    <string name="auth_switch_to_login">Already have an account? Log in</string>
+    <string name="auth_continue_guest">Continue as guest</string>
+    <string name="auth_demo_mode_note">Demo mode: accounts are saved on this device until Firebase is connected.</string>
+    <string name="auth_error_name">Please enter your name</string>
+    <string name="auth_error_email">Please enter a valid email address</string>
+    <string name="auth_error_password">Password must be at least 6 characters</string>
+    <string name="auth_error_invalid_credentials">Incorrect email or password</string>
+    <string name="auth_error_email_in_use">An account with this email already exists</string>
+    <string name="auth_error_weak_password">This password is too weak</string>
+    <string name="auth_error_network">No internet connection</string>
+    <string name="auth_error_unknown">Couldn\'t sign in. Please try again.</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Home -->
+    <string name="home_greeting">Marhaba!</string>
+    <string name="home_greeting_user">Marhaba, %1$s!</string>
+    <string name="home_title">Where to next?</string>
+    <string name="home_search_hint">Search places, cities…</string>
+    <string name="home_top_rated">Top rated</string>
+    <string name="home_all_places">All places</string>
+    <string name="home_empty">No places in this category yet.</string>
+    <string name="category_all">All</string>
+
+    <!-- Categories -->
+    <string name="category_historical">Historical</string>
+    <string name="category_nature">Nature</string>
+    <string name="category_religious">Religious</string>
+    <string name="category_entertainment">Entertainment</string>
+    <string name="category_restaurants">Restaurants</string>
+
+    <!-- Governorates -->
+    <string name="gov_amman">Amman</string>
+    <string name="gov_irbid">Irbid</string>
+    <string name="gov_zarqa">Zarqa</string>
+    <string name="gov_balqa">Balqa</string>
+    <string name="gov_madaba">Madaba</string>
+    <string name="gov_mafraq">Mafraq</string>
+    <string name="gov_jerash">Jerash</string>
+    <string name="gov_ajloun">Ajloun</string>
+    <string name="gov_karak">Karak</string>
+    <string name="gov_tafilah">Tafilah</string>
+    <string name="gov_maan">Ma\'an</string>
+    <string name="gov_aqaba">Aqaba</string>
+
+    <!-- Search -->
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search by name…</string>
+    <string name="search_clear">Clear search</string>
+    <string name="search_category">Category</string>
+    <string name="search_governorate">Governorate</string>
+    <string name="search_all_governorates">All governorates</string>
+    <string name="search_results">%1$d results</string>
+    <string name="search_empty_title">No matching places</string>
+    <string name="search_empty_message">Try a different name or remove some filters.</string>
+    <string name="search_reset_filters">Reset filters</string>
+
+    <!-- Details -->
+    <string name="details_about">About</string>
+    <string name="details_info">Visitor info</string>
+    <string name="details_hours">Opening hours</string>
+    <string name="details_tickets">Tickets</string>
+    <string name="details_ticket_local">Jordanians</string>
+    <string name="details_ticket_foreign">Foreigners</string>
+    <string name="details_ticket_everyone">Everyone</string>
+    <string name="details_location">Location</string>
+    <string name="details_open_in_maps">Open in Google Maps</string>
+    <string name="details_add_favorite">Add to favorites</string>
+    <string name="details_remove_favorite">Remove from favorites</string>
+    <string name="details_reviews">Reviews</string>
+    <string name="details_reviews_count">(%1$d)</string>
+    <string name="details_write_review">Write a review</string>
+    <string name="details_no_reviews">No reviews yet. Be the first to share your experience!</string>
+    <string name="details_not_found">This place could not be found.</string>
+    <string name="details_image_page">Image %1$d of %2$d</string>
+    <string name="details_no_maps_app">No app found to open the map</string>
+    <string name="details_saved">Saved to favorites</string>
+    <string name="details_unsaved">Removed from favorites</string>
+    <string name="login_required_title">Log in required</string>
+    <string name="login_required_message">You need an account to write a review. Would you like to log in now?</string>
+
+    <!-- Add review -->
+    <string name="review_title">Write a review</string>
+    <string name="review_rate_prompt">How was your visit?</string>
+    <string name="review_comment">Your comment</string>
+    <string name="review_comment_hint">Tell other travellers what you liked…</string>
+    <string name="review_submit">Post review</string>
+    <string name="review_error_rating">Please choose a star rating</string>
+    <string name="review_error_comment">Please write at least 3 characters</string>
+    <string name="review_error_save">Couldn\'t post your review. Please try again.</string>
+    <string name="review_posted">Thanks! Your review was posted.</string>
+    <string name="review_star">%1$d of 5 stars</string>
+    <string name="review_guest_title">Log in to write a review</string>
+    <string name="review_guest_message">Reviews are written by registered travellers so others can trust them.</string>
+
+    <!-- Map -->
+    <string name="map_title">Map</string>
+    <string name="map_view_details">View details</string>
+    <string name="map_no_key">Add a Google Maps API key in local.properties to see the interactive map. Meanwhile, here are all the places:</string>
+    <string name="map_close_card">Close</string>
+
+    <!-- Favorites -->
+    <string name="favorites_title">Favorites</string>
+    <string name="favorites_empty_title">No favorites yet</string>
+    <string name="favorites_empty_message">Tap the heart on any place to save it here. Favorites work offline.</string>
+    <string name="favorites_explore">Explore places</string>
+    <string name="favorites_remove">Remove</string>
+
+    <!-- Profile / Settings -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_guest">Guest traveller</string>
+    <string name="profile_guest_message">Log in to write reviews.</string>
+    <string name="profile_login">Log in or register</string>
+    <string name="profile_logout">Log out</string>
+    <string name="profile_settings">Settings</string>
+    <string name="profile_language">Language</string>
+    <string name="profile_language_en">English</string>
+    <string name="profile_language_ar">العربية</string>
+    <string name="profile_theme">Theme</string>
+    <string name="profile_theme_system">System</string>
+    <string name="profile_theme_light">Light</string>
+    <string name="profile_theme_dark">Dark</string>
+    <string name="profile_about">About</string>
+    <string name="profile_about_text">A Zarqa University Computer Science team project.</string>
+    <string name="profile_data_source">Data source</string>
+    <string name="profile_data_local">Offline (bundled data)</string>
+    <string name="profile_data_firebase">Firebase (cloud)</string>
+    <string name="profile_version">Version %1$s</string>
+</resources>
