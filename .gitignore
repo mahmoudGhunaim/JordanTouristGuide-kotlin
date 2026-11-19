@@ -19,3 +19,7 @@ app/google-services.json
 
 # Claude Code local settings
 .claude/settings.local.json
+
+# Firebase CLI local state
+.firebase/
+firebase-debug.log

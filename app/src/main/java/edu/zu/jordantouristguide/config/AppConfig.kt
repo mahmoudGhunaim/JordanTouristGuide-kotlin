@@ -14,7 +14,7 @@ import edu.zu.jordantouristguide.BuildConfig
 object AppConfig {
 
     /** Flip this to `true` after adding google-services.json. */
-    const val USE_FIREBASE = false
+    const val USE_FIREBASE = true
 
     /**
      * When Firebase is on and the Firestore "places" collection is empty,

@@ -182,6 +182,19 @@ Without a key, the Map tab shows a list of all places instead of the map. To ena
 
 ## 7. How to connect Firebase
 
+> **Status:** the app is already connected to the Firebase project **`jordan-tourist-guide-zu`**
+> (`AppConfig.USE_FIREBASE = true`). Auth (Email/Password) is enabled, Firestore is created,
+> the 19 places are uploaded and the rules in `firestore.rules` are deployed.
+>
+> **Teammates:** `app/google-services.json` is not committed. Get it from the team leader, or,
+> if you were added to the Firebase project, run:
+> `firebase apps:sdkconfig ANDROID --project jordan-tourist-guide-zu -o app/google-services.json`.
+> Without the file the app still builds and simply runs in offline mode.
+>
+> Deploy rule changes with `firebase deploy --only firestore:rules`.
+
+The steps below are how it was set up (repeat them for a new Firebase project):
+
 1. **Create a project** at [console.firebase.google.com](https://console.firebase.google.com/).
 2. **Add an Android app** with package name **`edu.zu.jordantouristguide`**. Optionally add the debug SHA-1 from `./gradlew signingReport`.
 3. **Download `google-services.json`** and put it in the **`app/`** folder (next to `app/build.gradle.kts`).
